@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vince.hackathon.ProfileInfoFragment"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="NAME"
+            android:id="@+id/nameHeading"
+            android:textColor="#B0BEC5"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/name"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:layout_below="@+id/nameHeading"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:text="Preet G S Anand" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="PHONE"
+            android:textColor="#B0BEC5"
+            android:id="@+id/phoneHeading"
+            android:layout_below="@+id/name"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="+918587830103"
+            android:id="@+id/phone"
+            android:layout_below="@+id/phoneHeading"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="EMAIL"
+            android:id="@+id/emailHeading"
+            android:layout_below="@+id/phone"
+            android:textColor="#B0BEC5"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="preetanand90@gmail.com"
+            android:id="@+id/email"
+            android:layout_below="@+id/emailHeading"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffffff"
+            android:textSize="17sp"/>
+    </RelativeLayout>
+
+</RelativeLayout>

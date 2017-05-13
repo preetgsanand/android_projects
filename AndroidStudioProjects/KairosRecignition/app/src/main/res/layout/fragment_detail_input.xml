@@ -1,0 +1,126 @@
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/background">
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:id="@+id/title"
+            android:layout_marginTop="20dp"
+            android:text="Enter the Details"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/userEmail"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Email"
+            android:textColorHint="#B0BEC5"
+            android:textSize="17sp"
+            android:padding="5dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/transparent_button"
+            android:layout_below="@+id/title" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/userFB"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Facebook"
+            android:textColorHint="#B0BEC5"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:layout_marginTop="20dp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/transparent_button"
+            android:layout_below="@+id/userEmail" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/userInsta"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:hint="Instagram"
+            android:textColorHint="#B0BEC5"
+            android:padding="5dp"
+            android:textSize="17sp"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/transparent_button"
+            android:layout_below="@+id/userFB" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/userName"
+            android:hint="Name"
+            android:padding="5dp"
+
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/transparent_button"
+            android:layout_below="@+id/userInsta"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/userAddress"
+            android:hint="Address"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/transparent_button"
+            android:layout_below="@+id/userName"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/userPhone"
+            android:hint="Phone"
+            android:padding="5dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/transparent_button"
+            android:layout_below="@+id/userAddress"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="submit"
+            android:id="@+id/submit"
+            android:layout_below="@+id/userPhone"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:layout_marginBottom="20dp"/>
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>

@@ -1,0 +1,171 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.vince.shivaexpo.ScanFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#3D5AFE"
+        android:id="@+id/list_header">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:id="@+id/name"
+            android:layout_margin="10dp"
+            android:textSize="25sp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/list_header"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/tableheading"
+            android:text="TABLE"
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:background="#3D5AFE"
+            />
+        <TextView
+            android:padding="5dp"
+            android:id="@+id/table"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tableheading"
+            android:text="hii" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/sizeheading"
+            android:text="SIZE"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/tableheading"
+            android:padding="5dp"
+            android:background="#3D5AFE"
+            />
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:id="@+id/size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/sizeheading"
+            android:layout_alignBaseline="@+id/sizeheading"
+            android:text="hii"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/mp_cbmheading"
+            android:text="MP CBM"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/sizeheading"
+            android:padding="5dp"
+            android:background="#3D5AFE"
+            />
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mp_cbmheading"
+            android:layout_alignBaseline="@+id/mp_cbmheading"
+            android:text="hii"
+            android:id="@+id/mp_cbm"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/ip_mpheading"
+            android:text="IP MP"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/mp_cbmheading"
+            android:padding="5dp"
+            android:background="#3D5AFE"
+            />
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/ip_mpheading"
+            android:layout_alignBaseline="@+id/ip_mpheading"
+            android:text="hii"
+            android:id="@+id/ip_mp"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/fobheading"
+            android:text="FOB"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/ip_mpheading"
+            android:padding="5dp"
+            android:background="#3D5AFE"
+            />
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/fobheading"
+            android:layout_alignBaseline="@+id/fobheading"
+            android:text="hii"
+            android:id="@+id/fob"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/quantityheading"
+            android:text="QUANTITY"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/fobheading"
+            android:padding="5dp"
+            android:background="#3D5AFE"
+            />
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/quantityheading"
+            android:layout_alignBaseline="@+id/quantityheading"
+            android:text="hii"
+            android:id="@+id/quantity"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/rateheading"
+            android:text="RATE"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/quantityheading"
+            android:padding="5dp"
+            android:background="#3D5AFE"
+            />
+        <TextView
+            android:padding="5dp"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rateheading"
+            android:layout_alignBaseline="@+id/rateheading"
+            android:text="hii"
+            android:id="@+id/rate"
+            android:layout_marginLeft="20dp"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

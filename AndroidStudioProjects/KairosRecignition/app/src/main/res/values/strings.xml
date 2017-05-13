@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Kairos Recignition</string>
+    <string name="kairos_app_id">bcb5bab4</string>
+    <string name="kairos_api_key">c792af1e955f0bea8033e3b8f91d153d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="camera_select_options">
+        <item>Camera</item>
+        <item>Gallery</item>
+    </string-array>
+
+    <string-array name="camera_options">
+        <item>Detection</item>
+        <item>Recognition</item>
+    </string-array>
+
+    <string name="user_add">http://recognitionmajor.herokuapp.com/user/add/</string>
+    <string name="user_list">http://recognitionmajor.herokuapp.com/user/list/?format=json</string>
+</resources>

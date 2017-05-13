@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jeet.abhilocation.OTPFragment"
+    android:background="@color/colorPrimaryDark">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your mobile number"
+        android:textColor="#ffffff"
+        android:layout_above="@+id/number"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/number"
+        android:textColor="#ffffff"
+        android:backgroundTint="#ffffff"
+        android:textAlignment="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:id="@+id/submit"
+        android:text="Submit"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/number"
+        android:layout_marginTop="10dp"/>
+</RelativeLayout>

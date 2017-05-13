@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "949913914353",
+    "firebase_url": "https://abhilocation-c6b5e.firebaseio.com",
+    "project_id": "abhilocation-c6b5e",
+    "storage_bucket": "abhilocation-c6b5e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:949913914353:android:328c1c5a06959730",
+        "android_client_info": {
+          "package_name": "com.example.jeet.abhilocation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "949913914353-oe73l114holhrtjipv62369qgpja6l1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm3LQAstrYxYGeLvtKRo8TmziAPlIuUHg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

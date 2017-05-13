@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/header">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/number"
+            android:text="1"
+            android:textSize="18sp"
+            android:paddingTop="13dp"
+            android:paddingLeft="20dp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Job Title"
+            android:id="@+id/jobTitle"
+            android:layout_alignTop="@+id/number"
+            android:layout_toRightOf="@+id/number"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:text="Status"
+            android:layout_toRightOf="@+id/number"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/jobTitle"
+            android:layout_marginTop="5dp"/>
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:text="\u25BC"
+            android:id="@+id/expansionButton"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/round_button"
+            android:clickable="true"
+            android:contextClickable="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@+id/header"
+        android:layout_alignParentStart="true"
+        android:id="@+id/descriptionLayout"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:id="@+id/description"
+            android:textColor="#ECEFF1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/description"
+            android:layout_marginTop="10dp"
+            android:text="Added"
+            android:background="#4CAF50"
+            android:textColor="#ffffff"
+
+            android:padding="2dp"
+            android:id="@+id/addedTitle"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="27 Jan, 2017"
+            android:id="@+id/addedDate"
+            android:textSize="15sp"
+            android:layout_marginLeft="3dp"
+            android:layout_alignBottom="@+id/addedTitle"
+            android:layout_toEndOf="@+id/addedTitle"
+            android:textColor="#ffffff"
+            android:padding="2dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Deadline"
+            android:id="@+id/deadlineTitle"
+            android:layout_below="@+id/addedTitle"
+            android:layout_alignStart="@+id/addedTitle"
+            android:layout_marginTop="20dp"
+            android:background="#EF5350"
+            android:textColor="#ffffff"
+
+            android:padding="2dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="20 Jan, 2017"
+            android:textSize="15sp"
+            android:id="@+id/deadline"
+            android:layout_marginLeft="3dp"
+            android:layout_alignBottom="@+id/deadlineTitle"
+            android:layout_toEndOf="@+id/deadlineTitle"
+            android:textColor="#ffffff"
+
+            android:padding="2dp"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionLayout"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/dateLayout"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+
+    </RelativeLayout>
+</RelativeLayout>

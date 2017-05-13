@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jeet.com.kairosrecignition.ActivityChoiceFragment"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#B2DFDB"
+        android:id="@+id/capture"
+        android:text="\uD83D\uDCF7 CAPTURE"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#4DB6AC"
+        android:text="\uD83D\uDCF7 RECOGNIZE"
+        android:textSize="20sp"
+        android:id="@+id/reoognize"
+        android:textColor="@color/white"/>
+</LinearLayout>
